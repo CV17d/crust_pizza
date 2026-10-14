@@ -2,14 +2,12 @@
 
 import React from "react";
 import FeatureIconBadge from "@/components/atoms/FeatureIconBadge";
-import {
-  Clock,
-  Store,
-  Pizza,
-  Sparkles,
-  Armchair,
-  Award,
-} from "lucide-react";
+import RetroClockIcon from "@/components/atoms/icons/RetroClockIcon";
+import RetroTvIcon from "@/components/atoms/icons/RetroTvIcon";
+import RetroTrainIcon from "@/components/atoms/icons/RetroTrainIcon";
+import RetroLanternIcon from "@/components/atoms/icons/RetroLanternIcon";
+import RetroArmchairIcon from "@/components/atoms/icons/RetroArmchairIcon";
+import RetroCompassIcon from "@/components/atoms/icons/RetroCompassIcon";
 
 interface FeatureItem {
   id: string;
@@ -28,34 +26,34 @@ export const ChicagoFeatureGrid: React.FC<ChicagoFeatureGridProps> = ({
 }) => {
   const features: FeatureItem[] = [
     {
-      id: "online-order",
+      id: "clock",
       label: "ORDER ONLINE",
-      icon: <Clock className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.2]" />,
+      icon: <RetroClockIcon />,
     },
     {
-      id: "catering",
+      id: "tv",
       label: "CATERING",
-      icon: <Store className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.2]" />,
+      icon: <RetroTvIcon />,
     },
     {
-      id: "fast-casual",
+      id: "train",
       label: "FAST CASUAL",
-      icon: <Pizza className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.2]" />,
+      icon: <RetroTrainIcon />,
     },
     {
-      id: "learn-more",
+      id: "lantern",
       label: "LEARN MORE",
-      icon: <Sparkles className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.2]" />,
+      icon: <RetroLanternIcon />,
     },
     {
-      id: "heritage",
-      label: "OUR HERITAGE",
-      icon: <Armchair className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.2]" />,
+      id: "armchair",
+      label: "RESTAURANT PICKUP",
+      icon: <RetroArmchairIcon />,
     },
     {
-      id: "franchise",
-      label: "FRANCHISE",
-      icon: <Award className="w-6 h-6 sm:w-7 sm:h-7 stroke-[2.2]" />,
+      id: "compass",
+      label: "FRANCHISING",
+      icon: <RetroCompassIcon />,
     },
   ];
 

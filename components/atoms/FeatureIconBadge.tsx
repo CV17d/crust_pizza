@@ -20,8 +20,8 @@ export const FeatureIconBadge: React.FC<FeatureIconBadgeProps> = ({
       onClick={onClick}
       className={`flex flex-col items-center group cursor-pointer select-none ${className}`}
     >
-      {/* Orange Squircle Container */}
-      <div className="w-13 h-13 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-[14px] sm:rounded-[18px] bg-[#EB7424] group-hover:bg-[#D66518] text-white flex items-center justify-center shadow-xs transition-all duration-200 group-hover:scale-105 active:scale-95">
+      {/* Vector Badge Container */}
+      <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-[68px] md:h-[68px] flex items-center justify-center drop-shadow-xs transition-all duration-200 group-hover:scale-105 active:scale-95">
         {icon}
       </div>
 
