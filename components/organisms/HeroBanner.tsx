@@ -18,7 +18,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({ className = "" }) => {
         {/* Photographic background: wood table, hands, sliced pizza, craft beers */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/hero-banner.png"
+            src="/images/hero-pizza-bg.jpg"
             alt="Freshly baked Chicago-style thin crust pizza shared among friends"
             fill
             priority
