@@ -29,7 +29,7 @@ export const MenuCard: React.FC<MenuCardProps> = ({
       className={`group relative bg-white rounded-[18px] sm:rounded-[22px] overflow-hidden shadow-sm hover:shadow-md border border-black/[0.06] transition-all duration-200 flex flex-col cursor-pointer ${className}`}
     >
       {/* Dish Image Banner */}
-      <div className="relative w-full aspect-[161/80] sm:aspect-[161/82] overflow-hidden bg-neutral-100">
+      <div className="relative w-full aspect-[1024/459] overflow-hidden bg-neutral-100">
         <Image
           src={item.imageSrc}
           alt={item.title}
